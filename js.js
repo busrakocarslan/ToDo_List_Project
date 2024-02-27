@@ -12,14 +12,9 @@ const sil = document.querySelector("#delete")
 
 
 
-document.addEventListener("DOMContentLoaded", () => {
-    const storedTodo = localStorage.getItem("newTodo");
-    if (storedTodo) {
-        const newTodo = createTodoElement(storedTodo);
-        program.appendChild(newTodo);
-        sil.style.display = "inline-block"; // Silme düğmesini göster
-    } else {
-        sil.style.display = "none"; // Silme düğmesini gizle
+document.addEventListener("DOMContentLoaded", () => {    
+    if(document.querySelectorAll("li").length===0){
+        sil.style.display="none"
     }
     input.focus();
     
