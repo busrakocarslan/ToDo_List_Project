@@ -52,6 +52,8 @@ input.style.backgroundColor="#f0f0f0"
 input.style.color="blackdsd"
 input.style.height="2rem"
 input.style.width="12rem"
+input.style.padding="0.5rem"
+input.style.margin="1rem"
 input.style.borderRadius="12rem"
 input.addEventListener("focus", function() {
     this.style.outline ="none";
