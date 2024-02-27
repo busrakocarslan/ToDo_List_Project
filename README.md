@@ -1,0 +1,1 @@
+A scheduler made in js using DOM, local storage not added yet
